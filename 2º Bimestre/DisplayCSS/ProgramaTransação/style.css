@@ -1,0 +1,39 @@
+.header {
+    background: rgb(11,115,166);
+    background: linear-gradient(90deg, rgba(11,115,166,1) 0%, rgba(6,6,107,1) 35%, rgba(0,211,255,1) 100%);
+    Text-align: center;
+    font-family:'Times New Roman', Times, serif
+
+}
+
+.botão {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid rgb(230, 93, 1);
+    font-size: 1.2rem;
+    color: rgb(243, 243, 52);
+    cursor: pointer;
+    position: relative;
+}
+
+.botão::before {
+    content: '';
+    position: absolute;
+    background: rgb(223, 122, 6);
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .5s ease;
+}
+
+.botão:hover::before {
+    width: 100%;
+}
+
+.main1 {
+    background: rgb(240,129,25);
+    background: radial-gradient(circle, rgba(240,129,25,1) 0%, rgba(218,150,0,1) 100%);
+}
