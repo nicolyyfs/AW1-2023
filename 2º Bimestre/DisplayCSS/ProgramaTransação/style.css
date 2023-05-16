@@ -1,0 +1,53 @@
+.header {
+    background: rgb(11,115,166);
+    background: linear-gradient(90deg, rgba(11,115,166,1) 0%, rgba(6,6,107,1) 35%, rgba(0,211,255,1) 100%);
+    Text-align: center;
+    font-family:'Times New Roman', Times, serif
+
+}
+
+.botão {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid rgb(230, 93, 1);
+    font-size: 1.2rem;
+    color: rgb(243, 243, 52);
+    cursor: pointer;
+    position: relative;
+}
+
+.botão::before {
+    content: '';
+    position: absolute;
+    background: rgb(223, 122, 6);
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .5s ease;
+}
+
+.botão:hover::before {
+    width: 100%;
+}
+
+.main1 {
+    background: rgb(33,117,223);
+    background: linear-gradient(0deg, rgba(33,117,223,1) 0%, rgba(16,201,223,1) 100%);
+}
+main2 {
+    background: rgb(0,25,113);
+    background: linear-gradient(90deg, rgba(0,25,113,1) 0%, rgba(20,240,241,1) 73%, rgba(11,81,242,1) 82%);
+}
+
+.table {
+    border: 1px solid rgba(8, 107, 168, 0.736); border-collapse: collapse; width: 100%;
+    background-image: radial-gradient(circle at 50% -20.71%, #82cd99 0, #76cea2 5%, #6acfab 10%, #5ecfb5 15%, #52d0bf 20%, #46d0c8 25%, #3bd0d2 30%, #33cfdb 35%, #30cee3 40%, #33cdeb 45%, #3cccf2 50%, #49caf8 55%, #57c8fd 60%, #67c6ff 65%, #77c3ff 70%, #86c1ff 75%, #96bdff 80%, #a5baff 85%, #b3b7ff 90%, #c0b3fb 95%, #cdb0f6 100%);
+}
+
+.main3 {
+    background-image: radial-gradient(circle at 27.64% 97.95%, #ceffa9 0, #b4ffb2 10%, #99ffb9 20%, #7cffbf 30%, #5effc2 40%, #3cf2c3 50%, #06e2c2 60%, #00d4c2 70%, #00c8c1 80%, #00bec2 90%, #00b6c3 100%);
+
+}
