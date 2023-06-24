@@ -1,0 +1,130 @@
+@import url('https://fonts.google.com/specimen/Lobsterfamily=Lobsterfamily');
+
+*{
+    font-family: 'Lobster', cursive;
+}
+
+body 
+    {
+        background: rgb(0, 0, 0);
+        
+    }
+
+main
+    {
+        position: relative;
+        top: 1vh;
+        left: 1vw;
+        height: 98vh;
+        width: 98vw;
+        background: rgb(112,7,224);
+        background: radial-gradient(circle, rgba(112,7,224,1) 0%, rgba(247,40,82,1) 100%);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.esquerda > h1
+    {
+        color: black; 
+    }
+
+.esquerda > img
+    {
+        width: 490px;
+        height:500px;
+    }
+
+.esquerda
+    {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+.direita
+    {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.card 
+    {
+        padding: 30px 35px;
+        background-color: rgb(225, 69, 170);
+        border-radius: 20px;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.card > h1
+    {
+        background: rgb(34,156,195);
+        background: linear-gradient(0deg, rgba(34,156,195,1) 0%, rgba(240,45,253,1) 100%);
+    } 
+
+.card2 
+    {
+        padding: 10px 10px;
+        background-color: rgba(202, 30, 255, 0.61);
+        border-radius: 10px;
+        width: 90%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.card3 
+    {
+        padding: 10px 10px;
+        background-color: rgba(202, 30, 255, 0.61);
+        border-radius: 10px;
+        width: 90%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.botao
+    {
+        background: rgb(255,0,176);
+        background: linear-gradient(90deg, rgba(255,0,176,1) 0%, rgba(91,11,81,1) 44%, rgba(234,70,162,1) 100%);
+        padding: 15px 15px;
+        border-radius: 10px;
+        width: 90%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+@media only screen and (max-width: 600px) 
+    {
+        .esquerda > h1{
+            display: none;
+        }
+    
+        main{
+            flex-direction: column;
+        }
+    }
